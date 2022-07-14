@@ -1,6 +1,12 @@
 # POC
 POC do Projeto Prosperidade
 
+- VSCode
+- NodeJS
+- Mustache
+- PostgreSQL
+- Git / Github
+
 Configurando ambiente de desenvolvimento no NodeJS através da ferramenta VSCode.
 
 - Crie um diretório para o projeto local
