@@ -11,7 +11,7 @@ Configurando ambiente de desenvolvimento no NodeJS através da ferramenta VSCode
 
 - Crie um diretório para o projeto local
 
-- Instale o node e configure os módulos express, ts-node, nodemon, mustache, dotenv, jsonwebtoken, nodemailer.
+- Instale o node e configure os módulos express, ts-node, nodemon, mustache, dotenv, jsonwebtoken, nodemailer, passport.
 
 - Crie na raiz do projeto o arquivo .env e inclua a instrução PORT = num-porta-a-executar-no-navegador
 
