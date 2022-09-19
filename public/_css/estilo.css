@@ -1,0 +1,114 @@
+/* Meus Projetos */
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+margin: 0px 5px;
+padding: 0px 5px;
+flex-direction: column;
+}
+
+.home{
+    display: block;
+    text-align: center;
+}
+
+.home img {
+    margin: 10px 0;
+}
+
+.home h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #2A3981;
+    margin: 10px 0;
+}
+
+.home label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: medium;
+    color: #6A6C78;
+    float: left;
+    margin: 10px 0px 0px 0px;
+}
+
+.home input {
+    display: block;
+    background-color: #D9DFFF;
+    text-align: left;
+    margin: 10px auto;
+}
+
+.home button {
+    margin: 30px auto 10px auto;
+}
+
+.home a {
+    display: block;
+    color: #706E6E;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.cabecalho {
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: bold;
+background-color: #D9DFFF;
+color: #2A3981;
+font-size: 20px;
+line-height: 30px;
+display: flex;
+justify-content: space-around;
+align-items:center;
+text-align: center;
+margin: 0 0 30px 0;
+}
+
+.cabecalho h1 {
+    margin: 0 20px 0 20px;
+}
+
+.subtitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #2A3981;
+    display: block;
+    justify-content: space-around;
+    align-items:center;
+    text-align: center;
+    margin: 0 0 30px 0;    
+}
+
+.itens{
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+color: #706E6E;
+font-size: 20px;
+line-height: 30px;
+display: flex;
+justify-content:flex-start;
+align-items:center;
+text-align: center;
+}
+
+.item-img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin: 0 10px 0 0;
+}
+
+.button {
+position: relative;
+width: 36px;
+height: 36px;
+}
