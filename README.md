@@ -17,7 +17,8 @@ Crie na raiz do projeto o arquivo .env e inclua a instrução PORT = num-porta-a
 Para executar o projeto, digite na linha de comando do terminal ~$ npm run start-dev
 
 A aplicação estará disponível no navegador em localhost:<porta-especificada-no-arquivo-.env>
-=======
+
+
 # POC
 POC do Projeto Prosperidade
 
@@ -46,6 +47,3 @@ Configurando ambiente de desenvolvimento no NodeJS através da ferramenta VSCode
 
 
 A aplicação estará disponível no navegador em localhost:<porta-especificada-no-arquivo-.env>
-  
-
->>>>>>> c1e5cd048daccb5c4a1b0e4dff44166a96b2ab73
