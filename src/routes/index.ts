@@ -7,13 +7,11 @@ import * as LogonAuthHome  from '../controllers/logonAuthController';
 
 const router = Router();
 
-router.get('/logon', LogonAuthHome.logonAuthHome)
-router.get('/cadastro', LogonAuthHome.logonCadastro)
+router.get('/', LogonAuthHome.logonAuthHome);
+router.get('/logon', LogonAuthHome.logonAuthHome);
+router.get('/cadastro', LogonAuthHome.logonCadastro);
+router.get('/complementoCadastro', LogonAuthHome.complementoCadastro);
 router.get('/meusProjetos',MeusProjetosPageController.meusProjetosHome);
 router.get('/listaProjetos', ListaProjetosController.listaProjetosHome);
-
-router.get('/',(req: Request, res: Response)=> {
-    res.send('home');
-});
 
 export default router;

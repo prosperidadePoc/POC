@@ -1,0 +1,46 @@
+{{>partials/header}}
+
+<body>
+    <header>
+        <form>
+            <section class="home">
+                <div class="form-group">
+                    <div class="col-md-12 offset-md-3">
+                        <label for="pais">País</label>
+                        <input type="text" class="form-control" id="pais" placeholder="País de origem">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-12 offset-md-3">
+                        <label for="estado">Estado</label>
+                        <input type="text" class="form-control" id="estado" placeholder="Estado de origem">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-12 offset-md-3">
+                        <label for="cidade">Cidade</label>
+                        <input type="text" class="form-control" id="cidade" placeholder="Cidade de origem">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-12 offset-md-3">
+                        <label for="competencia" class="form-label">Escolha a Competência</label>
+                        <input class="form-control" list="competencias" name="competencia" id="outroLocal">
+                        <datalist id="competencias">
+                            <option value="Agricultor">
+                            <option value="Analista de Requisitos">
+                            <option value="Bordadeira">
+                            <option value="Consultor Financeiro">
+                            <option value="Jardineiro">
+                            <option value="Pedreiro">
+                        </datalist>
+                </div>                
+                <div class="form-group">
+                    <button onclick="location.href='/listaProjetos'" type="button" class="btn btn-primary btn-md">Confirmar</button>
+                </div>
+            </section>
+        </form>
+ 
+</body>
+
+</html>

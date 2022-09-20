@@ -1,7 +1,12 @@
 import {Request, Response} from 'express';
 
-export const meusProjetosHome = (req:Request, res:Response) => {
+import { Projeto } from "../models/projetos";
 
-    res.render('pages/meusProjetos');
+export const meusProjetosHome = (req:Request, res:Response) => {
+    let list = Projeto.getMeusProjetos(1);
+
+    res.render('pages/meusProjetos', {
+       list
+    });
 
 }

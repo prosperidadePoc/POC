@@ -11,3 +11,9 @@ export const logonCadastro = (req:Request, res:Response) => {
     res.render('pages/cadastro');
 
 }
+
+export const complementoCadastro = (req:Request, res:Response) => {
+
+    res.render('pages/complementoCadastro');
+
+}
