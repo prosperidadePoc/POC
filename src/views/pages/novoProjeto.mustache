@@ -1,0 +1,61 @@
+{{>partials/header}}
+
+
+<body>
+    <header>
+        <section class=cabecalho>
+            <a href="javascript:void(0)" onClick="history.go(-1); return false;"><img class="button" src="_images/seta-esquerda.png" alt="Logo não disponível no momento"></a>
+            <h1>Projetos</h1>
+            <a href="/meusProjetos"><img class="button" src="_images/checked-sem-fundo.png" alt="Logo não disponível no momento"></a>
+        </section>
+        <section class="imgNovoProjeto">
+             <img src="_images/fundoImgNovoProjeto.png" alt="Logo não disponível no momento">
+        </section>
+        <section class="home">
+            <a href="">Carregar imagem do projeto</a>
+        </section>
+        <form>
+            <section class="home">
+                <div class="form-group">
+                    <div class="col-md-12 offset-md-3">
+                        <label for="tituo">Título</label>
+                        <input type="text" class="form-control" id="titulo" placeholder="Título do projeto">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-12 offset-md-3 h-100">
+                        <label for="descricaoProjeto">Descrição</label>
+                        <input type="text" class="form-control" id="descricaoProjeto" placeholder="Descreva o projeto">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-12 offset-md-3">
+                        <label for="local" class="form-label">Escolha o local desejado</label>
+                        <input class="form-control" list="locais" name="local" id="local">
+                        <datalist id="locais">
+                            <option value="Belo Horizonte">
+                            <option value="Campinas">
+                            <option value="Jundiaí">
+                            <option value="Rio de Janeiro">
+                            <option value="São Paulo">
+                        </datalist>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-12 offset-md-3">
+                        <label for="recurso" class="form-label">Escolha o Recurso</label>
+                        <input class="form-control" list="recursos" name="recurso" id="recurso">
+                        <datalist id="recursos">
+                            <option value="Areia - Material">
+                            <option value="Betoneira - Equipamento">
+                            <option value="Cimento - Material">
+                            <option value="Pedra - Material">
+                            <option value="Retro Escavadeira - Equipamento">
+                        </datalist>
+                    </div>
+                </div>
+
+        </form>
+
+</body>
+</html>

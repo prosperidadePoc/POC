@@ -113,3 +113,14 @@ position: relative;
 width: 36px;
 height: 36px;
 }
+
+.imgNovoProjeto {
+    text-align: center;
+}
+
+.imgNovoProjeto img {
+    width: 125px;
+    height:125px;
+    border-radius: 50%;
+    margin: 10px 0px;
+}
