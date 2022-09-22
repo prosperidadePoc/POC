@@ -73,6 +73,7 @@ margin: 0 0 30px 0;
 }
 
 .cabecalho h1 {
+    font-size: 100%;
     margin: 0 20px 0 20px;
 }
 
@@ -124,3 +125,74 @@ height: 36px;
     border-radius: 50%;
     margin: 10px 0px;
 }
+
+.imgMeuProjeto {
+    text-align: center;
+}
+
+.imgMeuProjeto img {
+    width: auto;
+    height:190px;
+    margin: 10px 20px;
+    border-radius: 5px;
+}
+
+.corpoFrame{
+    width: auto;
+    height: 600px;
+    margin: 0 10px;
+    padding: 0;
+  }
+
+.navTabs{
+    width: auto;
+    height: 600px;
+    margin: 10px 10px;
+    position: relative;
+
+  }
+
+  .navTabs ul{
+    list-style: none;
+  }
+
+  .navTabs ul li{
+    float: left;
+  }
+
+  .navTabs label{
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    display: block;
+    cursor: pointer;
+    text-align:left;
+    border: none;
+  }
+
+  .rdTabs:checked ~ label{
+    border-bottom: 1px solid grey;
+  }
+  .rdTabs{
+    display: none;
+  }
+  .tabContend{
+    display: none;
+    width: 330px;
+    height: 250px;
+    position: absolute;
+    left: 0;
+  }
+  .rdTabs:checked ~ .tabContend{
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    color: grey;
+  }
+  .tabContend article{
+    padding: 5px;
+  }
+  .tabContend article p{
+    padding: 0 0 5px 0;
+  }
+

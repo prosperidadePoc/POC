@@ -4,6 +4,7 @@ import * as MeusProjetosPageController from '../controllers/meusProjetosPageCont
 import * as ListaProjetosController from '../controllers/listaProjetosController';
 import * as LogonAuthHome  from '../controllers/logonAuthController';
 import * as novoProjetoController  from '../controllers/novoProjetoController';
+import * as meuProjetoController  from '../controllers/meuProjetoController';
 
 
 const router = Router();
@@ -13,6 +14,7 @@ router.get('/logon', LogonAuthHome.logonAuthHome);
 router.get('/cadastro', LogonAuthHome.logonCadastro);
 router.get('/complementoCadastro', LogonAuthHome.complementoCadastro);
 router.get('/meusProjetos',MeusProjetosPageController.meusProjetosHome);
+router.get('/meuProjeto/:imagemProjeto&:tituloProjeto&:descricaoProjeto', meuProjetoController.meuProjeto);
 router.get('/listaProjetos', ListaProjetosController.listaProjetosHome);
 router.get('/novoProjeto', novoProjetoController.novoProjeto);
 

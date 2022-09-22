@@ -9,8 +9,8 @@
 
         {{#list}}
             <section class="itens">
-                <img class="item-img" src="_images/{{ imagemProjeto }}" alt="imagem não encontrada">
-                <h3>{{tituloProjeto}}</h3>
+                <a href="/meuProjeto/{{imagemProjeto}}&{{tituloProjeto}}&{{descricaoProjeto}}"><img class="item-img" src="_images/{{ imagemProjeto }}" alt="imagem não encontrada"></a>
+                <h3><a href="/meuProjeto/{{imagemProjeto}}&{{tituloProjeto}}&{{descricaoProjeto}}">{{tituloProjeto}}</h3>
             </section>
         {{/list}}
 
