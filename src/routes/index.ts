@@ -14,7 +14,7 @@ router.get('/logon', LogonAuthHome.logonAuthHome);
 router.get('/cadastro', LogonAuthHome.logonCadastro);
 router.get('/complementoCadastro', LogonAuthHome.complementoCadastro);
 router.get('/meusProjetos',MeusProjetosPageController.meusProjetosHome);
-router.get('/meuProjeto/:imagemProjeto&:tituloProjeto&:descricaoProjeto', meuProjetoController.meuProjeto);
+router.get('/meuProjeto/:idProjeto', meuProjetoController.meuProjeto);
 router.get('/listaProjetos', ListaProjetosController.listaProjetosHome);
 router.get('/novoProjeto', novoProjetoController.novoProjeto);
 

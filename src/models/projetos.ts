@@ -44,7 +44,7 @@ const dadosProjetos: projeto[]  = [
         competencia:1,
         tituloProjeto:'Horta em Comunidade',
         imagemProjeto:'hortaComunitaria.jpeg',
-        descricaoProjeto:'O Projeto HORTA EM COMNIDADE tem como objetivo fomentar a comunidade local no aprendizado de boas práticas e na produção de frutas e hortaliças saudáveis',
+        descricaoProjeto:'O Projeto HORTA EM COMUNIDADE tem como objetivo fomentar a comunidade local no aprendizado de boas práticas e na produção de frutas e hortaliças saudáveis',
         localProjeto: 'cidade A',
         statusProjeto:'ativo',
         dataInicioProjeto:'11-15-2021',
@@ -79,6 +79,16 @@ const dadosProjetos: projeto[]  = [
 export const Projeto = {
     getAll: ():projeto[] => {
         return dadosProjetos;
+    },
+
+    getProjetoById: (id:number) :projeto[] => {
+        return dadosProjetos.filter(item => {
+            if (item.idProjeto === id) {
+                return true;
+            } else {
+                return false;
+            }
+        })
     },
 
     getMeusProjetos: (user:number):projeto[] => {

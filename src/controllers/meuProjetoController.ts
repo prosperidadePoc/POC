@@ -1,9 +1,11 @@
 import {Request, Response} from 'express';
+import { Projeto } from '../models/projetos';
 
 export const meuProjeto = (req:Request, res:Response) => {
-    let titulo = req.params.tituloProjeto;
-    let imagem = req.params.imagemProjeto;
-    let descricao = req.params.descricaoProjeto;
+    let id: number = parseInt(req.params.idProjeto)
+    let dadosProjeto = Projeto.getProjetoById(id);
 
-    res.render('pages/meuProjeto', {titulo, imagem, descricao});
+    console.log(dadosProjeto);
+
+    res.render('pages/meuProjeto', {dadosProjeto});
 }

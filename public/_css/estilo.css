@@ -178,7 +178,7 @@ height: 36px;
   }
   .tabContend{
     display: none;
-    width: 330px;
+    width: 400px;
     height: 250px;
     position: absolute;
     left: 0;
@@ -191,6 +191,9 @@ height: 36px;
   }
   .tabContend article{
     padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-align: justify;
   }
   .tabContend article p{
     padding: 0 0 5px 0;

@@ -2,13 +2,14 @@
 
 <body>
     <header>
+        {{#dadosProjeto}}
         <section class=cabecalho>
             <a href="javascript:void(0)" onClick="history.go(-1); return false;"><img class="button" src="../_images/seta-esquerda.png" title="Voltar" alt="Logo não disponível no momento"></a>
-            <h1>{{titulo}}</h1>
+            <h1>{{tituloProjeto}}</h1>
             <img class="button" src="../_images/dummyBackgound.png" alt="imagem não encontrada">
         </section>
         <section class="imgMeuProjeto">
-             <img src="../_images/{{imagem}}" alt="Logo não disponível no momento">
+             <img src="../_images/{{imagemProjeto}}" alt="Logo não disponível no momento">
         </section>
         <div class="corpoFrame">
             <nav class="navTabs">
@@ -18,7 +19,7 @@
                         <label for="tab1">Descrição</label>
                         <div class="tabContend">
                             <article>
-                                {{descricao}}
+                                {{descricaoProjeto}}
                             </article>
                         </div>
                     </li>
@@ -43,5 +44,6 @@
                 </ul>
             </nav>
         </div>
+        {{/dadosProjeto}}
     </header>
 </body>
